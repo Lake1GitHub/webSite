@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 18px;
+}
+body{
+    height:5000px;
+}
+header{
+    background-color: #aca9ab;
+    height: 500px;
+    transition: background-color 1s ease 0.5s;
+}
+nav{
+    position: relative;
+    top: 0;
+    height: 60px;
+    width: 100%;
+    margin: 0 auto;
+
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content:center;
+    -webkit-align-items: center;
+    align-items: center;
+
+    background-color: black;
+    overflow:hidden;
+}
+nav > div{
+    height: 60px;
+    width: 160px;
+
+    position: relative;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content:center;
+    -webkit-align-items: center;
+    align-items: center;
+
+    background-color: black;
+    margin-left:30px;
+}
+nav > div > a {
+    position:absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    line-height: 60px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+    font-family: 'Microsoft YaHei UI';
+}
+main{
+    width: 1400px;
+    margin: 0 auto;
+}
+.roll{
+    position: fixed;
+    right: 1%;
+    bottom: 0;
+    width: 90px;
+    height: 80px;
+    overflow: hidden;
+}
+.roll ul{
+    position: relative;
+    top: 100px;
+}
+.roll ul li{
+    display: block;
+    margin-bottom: 5px;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background: black;
+}
+.listItem a{
+    position: absolute;
+    display: block;
+    cursor: pointer;
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+.image , .lazyLoad{
+    text-align: center;
+}
+.div{
+    opacity: 0;
+}
+.div > ul{
+    list-style: none;
+}
+.div > ul li > a {
+    text-decoration: none;
+}
+.div2{
+    opacity: 0;
+}
+.div3{
+    opacity: 0;
+}
+@media screen and (max-width: 800px){
+    html{
+        font-size: 12px;
+    }
+}

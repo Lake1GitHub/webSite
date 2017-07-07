@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>test bootstrap</title>
+    <script src="js/jquery-3.2.1.js"></script>
+    <link href="bootCss/bootstrap.min.css" rel="stylesheet"/>
+    <style>
+        .jumbotronLocal{
+            background: linear-gradient(90deg , #020031 0, #6d3353 100%);/*渐变的起始点和结束点*/
+            font-size: 28px;
+            padding: 80px 0;
+            margin: 0;
+        }
+        .jumbotronLocal > div > h1{
+            font-size: 80px;
+        }
+        .jumbotronLocal > div > p{
+            font-size: 32px;
+        }
+        .btn-local{
+            font-size: 28px;
+        }
+        .icon-local{
+            position: absolute;
+            left: 10px;
+            top: 10px;
+            width: 100px;
+        }
+        .yxc-social{
+            width:
+            background-color: rgb(245,245,245);
+        }
+    </style>
+</head>
+<body>
+<div class="jumbotron jumbotronLocal">
+    <div class="container" style="color: white">
+        <p><img class="icon-local" src="img/yangxcoder.png"/></p>
+        <h1>YXC's Blog</h1>
+        <p>欢迎来到YangXCoder的私人博客，现在博客还在测试阶段，非常感谢您的访问</p>
+        <p><a class="btn btn-primary btn-lg btn-local" href="#" role="button">Learn more</a></p>
+    </div>
+</div>
+<div class="yxc-social">
+    <div class="container">
+        <span>123</span>
+    </div>
+</div>
+<script>
+    var o = {x:1, y:2, z:3};
+    var a = [], i = 0;
+    for(a[i++] in o){
+        //for( variable in object){
+        //      dosomething( variable );
+        //}
+        //for( i=0;i<object.length;i++){
+        //      variable = object[i];
+        //      dosomething( variable ):
+        //}
+    }
+    console.log(a);
+</script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
